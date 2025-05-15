@@ -1,0 +1,2 @@
+1. the last thing in the app ( add a functionality of stop refresh )
+2. add the button for stop pipeline in the detailedDataSource page.

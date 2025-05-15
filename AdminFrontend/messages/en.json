@@ -1,0 +1,721 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, fr {FR} en {EN} other {Unknown}}"
+  },
+  "LocaleLayout": {
+    "title": "Admin Panel",
+    "description": "Welcome to the Admin Panel. You can now connect to manage and explore clinical trial data through an intuitive interface, offering personalized recommendations for doctors and patients."
+  },
+  "Header": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "about": "About",
+    "faq": "FAQ",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "signedInAs": "Signed in as",
+    "settings": "Settings",
+    "dashboard": "Dashboard"
+  },
+  "LoginPage": {
+    "title": "Welcome",
+    "subtitle": "Please login here.",
+    "email": "E-mail",
+    "password": "Password",
+    "submit": "Login",
+    "continue with": "Or continue with",
+    "account": "Don't have an account?",
+    "toast": {
+      "title": "Login successful",
+      "description": "You are now logged in"
+    }
+  },
+  "RegisterPage": {
+    "title": "Create a new account",
+    "subtitle": "Please enter the details.",
+    "email": "E-mail",
+    "password": "Password",
+    "userName": "User Name",
+    "lastName": "Last name",
+    "hospital": "Hospital",
+    "hospitalPlaceHolder": "Hospital name",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "submit": "Register",
+    "continueWith": "Or continue with",
+    "account": "Already have an account?",
+    "toast": {
+      "title": "Account created",
+      "description": "You can now login to your account"
+    }
+  },
+  "HomePage": {
+    "headline1": "Manage",
+    "headline2": "your platform",
+    "headline3": "through an",
+    "headline4": "intuitive admin panel",
+    "subheadline": "Access all data and features through a clear and secure interface.",
+    "cta": "Log in",
+    "imageAlt": "Admin panel interface displaying data"
+  },
+  "SideBar": {
+    "Dashboard": "Dashboard",
+    "DataSources": "Data Sources",
+    "Users": "Users",
+    "ClinicalTrials": "Clinical Trials",
+    "Settings": "Settings",
+    "AdminPanel": "Admin Panel",
+    "dataCollection": "Data Collection & Refresh",
+    "PendingClinicalTrials": "Pending Clinical Trials"
+  },
+  "UsersSection": {
+    "title": "Users Statistics",
+    "total": {
+      "title": "Total Users",
+      "footerTitle": "Overall platform growth",
+      "footerDesc": "Combined user base across all roles"
+    },
+    "doctors": {
+      "title": "Doctors",
+      "footerTitle": "Medical staff growth",
+      "footerDesc": "Active medical professionals"
+    },
+    "patients": {
+      "title": "Patients",
+      "footerTitle": "Patient registration rate",
+      "footerDesc": "Total registered patients"
+    },
+    "investigators": {
+      "title": "Investigators",
+      "footerTitle": "Research team status",
+      "footerDesc": "Active research personnel"
+    },
+    "admins": {
+      "title": "Administrators",
+      "footerTitle": "Management staff",
+      "footerDesc": "System administrators"
+    },
+    "chart": {
+      "title": "User Distribution",
+      "subtitle": "Current user breakdown by role",
+      "centerLabel": "Users",
+      "count": "Count",
+      "trendingUp": "Trending up by ",
+      "trendingDown": "Trending down by ",
+      "period": "this period",
+      "description": "Showing relative distribution of all user roles"
+    }
+  },
+  "DataSourcesSection": {
+    "title": "Data Sources",
+    "api": {
+      "title": "API Sources",
+      "footerDesc": "Structured data from external APIs"
+    },
+    "webScraper": {
+      "title": "Web Scrapers",
+      "footerDesc": "Data extracted from websites"
+    },
+    "investigators": {
+      "title": "Investigators",
+      "footerDesc": "Data collected by research teams"
+    },
+    "chart": {
+      "title": "Clinical Trials by Source",
+      "subtitle": "Number of trials collected per source",
+      "trials": "Clinical Trials"
+    }
+  },
+  "ClinicalTrialsSection": {
+    "title": "Clinical Trials",
+    "count": "Number of Trials",
+    "total": {
+      "title": "Total Clinical Trials",
+      "growth": "Growing by {value}% this month"
+    },
+    "status": {
+      "completed": "Completed",
+      "notYetRecruiting": "Not Recruiting",
+      "recruiting": "Recruiting",
+      "unknown": "Unknown",
+      "withdrawn": "Withdrawn",
+      "terminated": "Terminated",
+      "suspended": "Suspended"
+    },
+    "chart": {
+      "title": "Trials by Status",
+      "subtitle": "Distribution of clinical trials by current status",
+      "trendingUp": "Growing by",
+      "period": "this month",
+      "description": "Based on all clinical trials tracked in the system"
+    }
+  },
+  "SearchPage": {
+    "filtersSideBar": {
+      "title": "Filters",
+      "condition": {
+        "label": "Condition/disease",
+        "placeholder": "Type of pathology (e.g. cancer)"
+      },
+      "location": {
+        "label": "Location",
+        "placeholder": "Select a country...",
+        "cityPlaceholder": "Select a city..."
+      },
+      "studyStatus": {
+        "label": "Study status",
+        "lookingForParticipants": "Looking for participants",
+        "noLongerLookingForParticipants": "No longer looking for participants",
+        "other": "Other",
+        "options": {
+          "notYetRecruiting": "Not yet recruiting",
+          "recruiting": "Recruiting",
+          "activeNotRecruiting": "Active, not recruiting",
+          "completed": "Completed",
+          "terminated": "Terminated",
+          "enrollingByInvitation": "Enrolling by invitation",
+          "suspended": "Suspended",
+          "withdrawn": "Withdrawn",
+          "unknown": "Unknown"
+        }
+      },
+      "gender": {
+        "label": "Gender",
+        "options": {
+          "all": "All",
+          "male": "Male",
+          "female": "Female"
+        }
+      },
+      "studyType": {
+        "label": "Study type",
+        "options": {
+          "interventional": "Interventional",
+          "observational": "Observational",
+          "expandedAccess": "Expanded access"
+        }
+      },
+      "studyPhase": {
+        "label": "Study phase",
+        "options": {
+          "na": "NA",
+          "earlyPhase1": "Early Phase 1",
+          "phase1": "Phase 1",
+          "phase2": "Phase 2",
+          "phase3": "Phase 3",
+          "phase4": "Phase 4"
+        }
+      },
+      "dateRange": {
+        "label": "Date range",
+        "studyStartDate": "Study start date",
+        "primaryCompletionDate": "Primary completion date",
+        "placeholder": "Pick a date"
+      },
+      "applyFilters": "Apply Filters",
+      "clearFilters": "Clear Filters"
+    }
+  },
+  "ClinicalTrialCard": {
+    "conditions": "Conditions",
+    "manyCountries": "Many countries",
+    "details": "Details",
+    "between": "Between",
+    "and": "and",
+    "years": "years",
+    "over": "Over",
+    "under": "Under",
+    "startingOn": "Starting on",
+    "endingOn": "Ending on",
+    "unknownGender": "Unknown gender",
+    "unknownAge": "Unknown age",
+    "unknownDates": "Unknown dates"
+  },
+  "ClinicalTrialDetails": {
+    "sourceName": "Source name",
+    "sourceType": "Source type",
+    "originalId": "Original ID",
+    "studyUrl": "Study URL",
+    "studyStart": "Study start",
+    "studyCompletion": "Study completion",
+    "lastUpdated": "Last updated",
+    "enrollment": "Enrollment (Actual)",
+    "studyType": "Study type",
+    "studyPhase": "Study phase",
+    "unknownDate": "Unknown date",
+    "unknownEnrollment": "Unknown enrollment",
+    "unknownType": "Unknown type",
+    "unknownPhase": "Unknown phase",
+    "unknownSource": "Unknown source",
+    "unknownId": "Unknown ID",
+    "unknownUrl": "Unknown URL",
+    "studySummary": "Study summary",
+    "studyTitle": "Study Title",
+    "conditions": "Conditions",
+    "interventions": "Interventions",
+    "interventionsUsage": "Intervention usage",
+    "participationCriteria": "Participation criteria",
+    "collaboratorsAndInvestigators": "Collaborators and investigators",
+    "sponsor": "Sponsor",
+    "collaborators": "Collaborators",
+    "contactsAndLocations": "Contacts and locations",
+    "noContacts": "No contacts provided",
+    "noCollaborators": "No collaborators provided",
+    "noSponsor": "No sponsor provided",
+    "noEligibilityCriteria": "No eligibility criteria provided",
+    "noConditions": "No conditions provided",
+    "noSummary": "No summary provided",
+    "gender": "Gender",
+    "minAge": "Minimum age",
+    "maxAge": "Maximum age",
+    "years": "years"
+  },
+  "DataSourcesTable": {
+    "title": "Data Sources",
+    "columns": {
+      "name": "Name",
+      "type": "Type",
+      "nextSync": "Next Scheduled Sync",
+      "frequency": "Frequency",
+      "status": "Status",
+      "actions": "Actions",
+      "refreshStatus": "Refresh Status"
+    },
+    "type": {
+      "API": "API",
+      "Website Scraper": "Website Scraper",
+      "INVESTIGATOR": "Investigator"
+    },
+    "sync": {
+      "notScheduled": "Not scheduled Yet"
+    },
+    "frequency": {
+      "notConfigured": "Not configured",
+      "values": {
+        "DAILY": "Daily",
+        "WEEKLY": "Weekly",
+        "MONTHLY": "Monthly",
+        "MANUAL": "Manual"
+      }
+    },
+    "status": {
+      "idle": "Idle",
+      "running": "Running",
+      "stopped": "Stopped",
+      "failed": "Failed",
+      "completed": "Completed",
+      "refresh completed": " Refresh completed",
+      "refreshing": "Refreshing",
+      "refresh failed": "Refresh failed"
+    },
+    "actions": {
+      "configureSchedule": "Configure Refresh Schedule",
+      "startPipeline": "Start Pipeline",
+      "stopPipeline": "Stop Pipeline",
+      "viewDetails": "View Details",
+      "openMenu": "Open menu"
+    },
+    "customizeColumns": {
+      "long": "Customize Columns",
+      "short": "Columns"
+    },
+    "filter": {
+      "placeholder": "Filter data sources...",
+      "typePlaceholder": "Filter by type",
+      "allTypes": "All Types"
+    },
+    "noData": "No data sources found.",
+    "pagination": {
+      "showing": "Showing {count} of {total} data sources",
+      "rowsPerPage": "Rows per page",
+      "pageInfo": "Page {page} of {totalPages}",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "confirmation": {
+      "stop": {
+        "title": "Stop Pipeline",
+        "message": "Are you sure you want to stop the pipeline for {name}?",
+        "confirm": "Stop"
+      }
+    }
+  },
+  "ScheduleModal": {
+    "title": "Configure Refresh Schedule",
+    "description": "Set up how often you want to refresh data from {name}",
+    "successMessage": "Schedule updated for {name}",
+    "frequency": {
+      "label": "Frequency",
+      "placeholder": "Select frequency",
+      "description": "How often to refresh the data",
+      "options": {
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "manual": "Manual",
+        "notSet": "Not Set"
+      }
+    },
+    "dayOfWeek": {
+      "label": "Day of Week",
+      "placeholder": "Select day",
+      "options": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "notSet": "Not Set"
+      }
+    },
+    "dayOfMonth": {
+      "label": "Day of Month",
+      "placeholder": "Select day",
+      "options": {
+        "notSet": "Not Set"
+      }
+    },
+    "timeOfDay": {
+      "label": "Time",
+      "description": "Specify the time for the refresh (optional)"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "save": "Save Schedule"
+    }
+  },
+  "DataSourceDetails": {
+    "subtitle": "Data Source Details",
+    "buttons": {
+      "refreshNow": "Refresh Now",
+      "runPipeline": "Run Pipeline",
+      "configure": "Configure",
+      "stopPipeline": "Stop Pipeline"
+    },
+    "totalTrialsCard": {
+      "title": "Total Clinical Trials"
+    },
+    "scheduleCard": {
+      "title": "Current Schedule",
+      "frequencyLabel": "Frequency",
+      "nextSyncLabel": "Next Sync"
+    },
+    "schedule": {
+      "notScheduled": "Not scheduled",
+      "atTime": "at",
+      "onDay": "on",
+      "onDayOfMonth": "on day"
+    },
+    "tabs": {
+      "details": "Details",
+      "history": "Data Collection History",
+      "settings": "Settings"
+    },
+    "detailsTab": {
+      "title": "Data Source Information",
+      "idLabel": "ID:",
+      "nameLabel": "Name:",
+      "typeLabel": "Type:"
+    },
+    "settingsTab": {
+      "comingSoon": "Additional settings will be available soon."
+    },
+    "refreshNow": {
+      "title": "Refresh Data Now",
+      "description": "Are you sure you want to refresh data for this source ?",
+      "confirmButtonText": "Refresh Now",
+      "cancelButton": "Cancel",
+      "toastError": "Error refreshing data",
+      "toastSuccess": "Data refresh initiated successfully"
+    },
+    "stopNow": {
+      "title": "Stop Data Pipeline",
+      "description": "Are you sure you want to stop the data pipeline for this source ?",
+      "confirmButtonText": "Stop Now",
+      "cancelButton": "Cancel",
+      "toastError": "Error stopping data pipeline",
+      "toastSuccess": "Data pipeline stopped successfully"
+    }
+  },
+  "RunPipelineModal": {
+    "title": "Run Data Pipeline",
+    "description": "Configure and start the data pipeline for {name}",
+    "tabs": {
+      "basic": "Basic Settings",
+      "filters": "Filters"
+    },
+    "basicSettings": {
+      "numberOfTrials": {
+        "label": "Number of Trials",
+        "description": "Must be a multiple of 100 (e.g., 100, 200)"
+      },
+      "startingFrom": {
+        "label": "Starting From",
+        "description": "Offset for pagination (multiple of 100)"
+      }
+    },
+    "filters": {
+      "numberOfTrials": {
+        "label": "Number of Trials",
+        "description": "Must be a multiple of 100 (e.g., 100, 200)"
+      },
+      "startingFrom": {
+        "label": "Starting From",
+        "description": "Offset for pagination (multiple of 100)"
+      },
+      "startYear": {
+        "label": "Start Year"
+      },
+      "endYear": {
+        "label": "End Year"
+      },
+      "country": {
+        "label": "Country",
+        "placeholder": "Select a country",
+        "description": "Filter trials by country"
+      },
+      "status": {
+        "trigger": "Trial Status",
+        "description": "Select the trial statuses to include"
+      },
+      "conditions": {
+        "trigger": "Conditions",
+        "description": "Select conditions to filter trials by"
+      }
+    },
+    "statusOptions": {
+      "completed": "Completed",
+      "recruiting": "Recruiting",
+      "notYetRecruiting": "Not Yet Recruiting",
+      "activeNotRecruiting": "Active, Not Recruiting",
+      "terminated": "Terminated",
+      "withdrawn": "Withdrawn",
+      "unknown": "Unknown",
+      "suspended": "Suspended",
+      "enrollingByInvitation": "Enrolling by Invitation",
+      "approvedForMarketing": "Approved for Marketing",
+      "noLongerAvailable": "No Longer Available",
+      "temporarilyNotAvailable": "Temporarily Not Available"
+    },
+    "conditionOptions": {
+      "cancer": "Cancer",
+      "diabetes": "Diabetes",
+      "covid19": "COVID-19",
+      "alzheimers": "Alzheimer's Disease",
+      "heartDisease": "Heart Disease"
+    },
+    "countryOptions": {
+      "us": "United States",
+      "gb": "United Kingdom",
+      "ca": "Canada",
+      "au": "Australia",
+      "fr": "France",
+      "de": "Germany"
+    },
+    "validation": {
+      "numberOfTrialsMultiple": "Number of trials must be at least 100 and a multiple of 100",
+      "startingFromMultiple": "Starting from must be a multiple of 100"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "start": "Start Pipeline"
+    },
+    "successMessage": "Pipeline started for {name}"
+  },
+  "LogContextsTable": {
+    "title": "Pipeline Logs",
+    "customizeColumns": {
+      "long": "Customize Columns",
+      "short": "Columns"
+    },
+    "filter": {
+      "sourcePlaceholder": "Filter by source name...",
+      "typePlaceholder": "Filter by event type",
+      "allTypes": "All Types"
+    },
+    "columns": {
+      "id": "ID",
+      "sourceName": "Source",
+      "logEventType": "Event Type",
+      "parameters": "Parameters",
+      "createdAt": "Created At"
+    },
+    "eventTypes": {
+      "DATA_LOADING": "Data Loading",
+      "ERROR": "Error",
+      "INFO": "Info",
+      "DATA_REFRESHING": "Data Refreshing",
+      "PIPELINE_START": "Pipeline Start",
+      "PIPELINE_END": "Pipeline End",
+      "PIPELINE_ERROR": "Pipeline Error"
+    },
+    "parameters": {
+      "trials": "Trials",
+      "from": "From",
+      "years": "Years",
+      "country": "Country",
+      "statuses": "Statuses",
+      "conditions": "Conditions",
+      "none": "No parameters"
+    },
+    "dateTimeFormat": "MMM dd, yyyy HH:mm:ss",
+    "noData": "No logs found.",
+    "pagination": {
+      "showing": "Showing {count} of {total} log entries",
+      "rowsPerPage": "Rows per page",
+      "pageInfo": "Page {page} of {totalPages}",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    }
+  },
+  "UsersDataTable": {
+    "headerTitle": "Users",
+    "customizeColumns": {
+      "button": "Customize Columns",
+      "buttonShort": "Columns"
+    },
+    "filter": {
+      "emailPlaceholder": "Filter by email...",
+      "rolePlaceholder": "Filter by role...",
+      "roleAllOption": "All Roles"
+    },
+    "table": {
+      "header": {
+        "email": "Email",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "role": "Role",
+        "status": "Status"
+      },
+      "body": {
+        "noResults": "No results found.",
+        "status": {
+          "active": "Active",
+          "blocked": "Blocked"
+        },
+        "actions": {
+          "openMenu": "Open actions menu",
+          "block": "Block",
+          "unblock": "Unblock",
+          "delete": "Delete"
+        }
+      }
+    },
+    "pagination": {
+      "totalRows": "{total} row(s) total.",
+      "rowsPerPage": "Rows per page",
+      "pageInfo": "Page {page} of {totalPages}",
+      "showing": "Showing {count} of {total} users",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "actionsConfirmation": {
+      "block": {
+        "title": "Block User",
+        "message": "Are you sure you want to block {email} ?",
+        "confirmButton": "Block",
+        "success": "User blocked successfully",
+        "error": "Error blocking user"
+      },
+      "delete": {
+        "title": "Delete User",
+        "message": "Are you sure you want to delete {email}?",
+        "confirmButton": "Delete",
+        "success": "User deleted successfully",
+        "error": "Error deleting user"
+      },
+      "unblockSuccess": "User unblocked successfully"
+    },
+    "roles": {
+      "patient": "Patient",
+      "doctor": "Doctor",
+      "admin": "Admin",
+      "investigator": "Investigator"
+    }
+  },
+  "ClinicalTrialsTable": {
+    "headerTitle": "Clinical Trials",
+    "customizeColumns": {
+      "button": "Customize Columns",
+      "buttonShort": "Columns"
+    },
+    "filters": {
+      "trialPlaceholder": "Filter trials...",
+      "statusPlaceholder": "Filter by Status",
+      "allStatusesOption": "All Statuses"
+    },
+    "table": {
+      "header": {
+        "title": "Title",
+        "phase": "Phase",
+        "conditions": "Conditions",
+        "enrollment": "Enrollment",
+        "status": "Status",
+        "nextFollowUp": "Next Follow-up"
+      },
+      "body": {
+        "conditionsUnknown": "Unknown",
+        "enrollmentInfinite": "∞",
+        "notScheduled": "Not scheduled",
+        "noResults": "No clinical trials found.",
+        "actions": {
+          "openMenu": "Open menu",
+          "viewDetails": "View Details",
+          "refuse": "Refuse",
+          "accept": "Accept",
+          "delete": "Delete"
+        }
+      }
+    },
+    "pagination": {
+      "showing": "Showing {count} of {total} clinical trials",
+      "rowsPerPage": "Rows per page",
+      "pageInfo": "Page {page} of {totalPages}",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "actionsConfirmation": {
+      "delete": {
+        "title": "Delete Trial",
+        "message": "Are you sure you want to delete this trial?",
+        "confirmButton": "Delete"
+      }
+    },
+    "toastMessages": {
+      "deleteSuccess": "Trial Deleted Successfully",
+      "deleteError": "Failed to delete trial"
+    },
+    "statusEnum": {
+      "NOT_YET_RECRUITING": "Not Yet Recruiting",
+      "RECRUITING": "Recruiting",
+      "ENROLLING_BY_INVITATION": "Enrolling by Invitation",
+      "ACTIVE_NOT_RECRUITING": "Active, Not Recruiting",
+      "SUSPENDED": "Suspended",
+      "TERMINATED": "Terminated",
+      "COMPLETED": "Completed",
+      "WITHDRAWN": "Withdrawn",
+      "UNKNOWN": "Unknown"
+    }
+  },
+  "Logout": {
+    "buttonText": "Logout",
+    "ariaLabel": "Logout",
+    "confirmTitle": "Logout",
+    "confirmMessage": "Are you sure you want to logout?",
+    "confirmButton": "Logout",
+    "toastSuccess": "Logout successful"
+  }
+}

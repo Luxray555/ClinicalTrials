@@ -1,0 +1,281 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, fr {FR} en {EN} other {Unknown}}"
+  },
+  "LocaleLayout": {
+    "title": "Clinical Trials",
+    "description": "Explore and manage clinical trial data seamlessly with a user-friendly interface, providing personalized recommendations for doctors and patients."
+  },
+  "Header": {
+    "home": "Home",
+    "search": "Search",
+    "patients": "Patients",
+    "myTrials": "My Trials",
+    "about": "About",
+    "faq": "FAQ",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "LoginPage": {
+    "title": "Welcome",
+    "subtitle": "Please login here.",
+    "email": "E-mail",
+    "password": "Password",
+    "submit": "Login",
+    "continueWith": "Or continue with",
+    "account": "Don't have an account?",
+    "toast": {
+      "title": "Login successful",
+      "description": "You are now logged in"
+    }
+  },
+  "RegisterPage": {
+    "title": "Create a new account",
+    "subtitle": "Please enter the details.",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirm password",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "hospital": "Hospital",
+    "speciality": "Speciality",
+    "medicalLicenseNumber": "Medical license number",
+    "phoneNumber": "Phone number",
+    "address": "Address",
+    "institution": "Institution",
+    "institutionAddress": "Institution address",
+    "institutionContactNumber": "Institution contact number",
+    "investigatorRole": "Investigator role",
+    "hospitalPlaceHolder": "Hospital name",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "submit": "Register",
+    "next": "Next",
+    "back": "Back",
+    "continueWith": "Or continue with",
+    "account": "Already have an account?",
+    "toast": {
+      "title": "Account created",
+      "description": "You can now login to your account"
+    }
+  },
+  "HomePage": {
+    "SearchSection": {
+      "title": {
+        "first": "Discover and Connect",
+        "second": "Patients",
+        "third": "to Innovative",
+        "fourth": "Oncology Trials"
+      },
+      "subTitle": "Empower Your Patients with Access to Cutting-Edge Clinical Trials",
+      "startSearching": "Start Searching",
+      "form": {
+        "formHeader": "I am looking for a clinical trial.",
+        "condition": "Condition/disease",
+        "conditionPlaceHolder": "Type of pathology (e.g. cancer)",
+        "location": "Country",
+        "locationPlaceHolder": "Select a country...",
+        "search": "Search"
+      }
+    },
+    "KeyFeaturesSection": {
+      "title": "Key features",
+      "first": "Real-time Data Integration",
+      "second": "Geolocation for Trial Sites",
+      "third": "Profile-based Recommendations",
+      "fourth": "Easy Search and Filter Options",
+      "fifth": "Secure Patient Data Management",
+      "sixth": "Patient-Doctor Communication"
+    },
+    "HowItWorksSection": {
+      "title": "How it works",
+      "first": {
+        "title": "Create a Patient Profile",
+        "description": "Input patient details for personalized clinical trial recommendations."
+      },
+      "second": {
+        "title": "Search and Filter Trials",
+        "description": "Find relevant trials using our advanced search tools."
+      },
+      "third": {
+        "title": "Contact the Trial Coordinator",
+        "description": "Get in touch with the trial team seamlessly."
+      }
+    },
+    "FaqSection": {
+      "title": "Frequently Asked Questions",
+      "questions": {
+        "first": {
+          "question": "What is a clinical trial?",
+          "answer": "Clinical research (in the sense of the Jardé law that governs it in France) corresponds to scientific studies carried out on human beings, with a view to developing biological or medical knowledge. This is prospective research, involving the monitoring of patients or healthy volunteers. When we talk about clinical research, we often think first of clinical trials aimed at evaluating a new drug, a medical device or a biotherapy. But this field of health research is much broader. Clinical research also allows: the identification of molecular or cellular mechanisms involved in diseases (which can itself lead to the identification of new therapeutic targets); the identification of genetic or environmental risk factors (which can allow the implementation of a prevention strategy); the comparison of several available diagnostic or therapeutic approaches (which can be used to formulate recommendations on patient care)… The objective of a clinical trial on a health product (drug, device or cell and gene therapy) is to evaluate its safety and efficacy in healthy or sick volunteers. The drug may obtain a marketing authorization (MA) issued by the National Agency for the Safety of Medicines and Health Products (ANSM) if its efficacy is proven, and if it is safe for the patient and can be used safely."
+        },
+        "second": {
+          "question": "What are the different types of clinical trials?",
+          "answer": "The legislative texts governing research involving human subjects (RIPH) distinguish three categories. These categories are mainly differentiated by the nature of the intervention provided for by the research protocol, whether or not modifying the usual care of the participants, and by the level of risk and constraints for the people who agree to participate. Interventional research: involves an intervention that is not without risk for the people who participate, and not justified by their usual care. This mainly concerns research on drugs, but also on other types of interventions such as surgical procedures, medical devices, or cell or gene therapies. Interventional research with minimal risks and constraints: may include minimally invasive interventions or procedures, the list of which is set by decree (blood test within certain volume limits, questionnaire whose results may lead to a modification of the care, radiological examination without injection of contrast agent, etc.). Health products or medicines may be used under their usual conditions of use, if they are not specifically the subject of the research. Non-interventional research: involves acts or procedures defined by an order. Free of risks, they do not change the care of participants, and all acts performed and products used are done so in the usual manner. They include observational research: studies on treatment compliance, tolerance to a medicine after it has been placed on the market, practices in one care center compared to those in another, etc."
+        },
+        "third": {
+          "question": "Who can join a clinical trial and how?",
+          "answer": "Whether sick or healthy, anyone can be asked to participate in health research. This proposal can be made during a consultation with a doctor, but also through posters or media announcements. It is also possible to volunteer independently, by contacting structures dedicated to clinical and health research, such as Inserm's clinical investigation centers (CICs). Being a volunteer does not mean that you will automatically be included in a trial. Each study has inclusion criteria, based on age, sex, type and stage of the disease, medical history, and associated diseases. These criteria guarantee the homogeneity of the groups, and therefore the obtaining of reliable, relevant and robust results."
+        },
+        "fourth": {
+          "question": "How to get involoved with confidence in a clinical trial?",
+          "answer": "Participating in a clinical trial requires strong involvement and it is essential to know the issues and rules in order to commit with confidence. The information website Notre recherche clinique is an initiative of the Ministry of Solidarity and Health, and partners such as France Assos santé, to allow you to learn about all the aspects related to this subject. The issues of ethics, confidentiality, data protection, and control are thus addressed. The protection of people who participate in research is governed by regulations: the founding text is the Nuremberg Code of 1947, in France the Huriet-Sérusclat law was promoted in 1988. Before starting a clinical trial, the sponsor (who is the initiator of the trial) is required to gather and study everything that is known about the pathology and existing treatments as well as all the scientific information available on the product to be evaluated (drug or medical device). An independent Personal Protection Committee (CPP) is convened to monitor and evaluate each ongoing trial. Other control procedures are also carried out regularly during the trial: quality controls, specific controls in the event of adverse effects and monitoring by an independent committee of experts. The rules of medical confidentiality and professional secrecy apply to clinical trials. Biological samples taken may be stored after being made anonymous. Each participant in a trial can know the overall results, which are generally published 1 year after the end of the trial. It is possible to leave a trial at any time, without justification and without risk to medical care, because participation is free and voluntary. An information document is provided, including the various possible contacts (investigator and his team) in the event of a problem."
+        }
+      }
+    },
+    "Footer": {
+      "about": {
+        "title": "About",
+        "links": {
+          "aboutUs": "About Us",
+          "howItWorks": "How It Works",
+          "faq": "FAQ"
+        }
+      },
+      "support": {
+        "title": "Support",
+        "links": {
+          "contactUs": "Contact Us",
+          "trackComplaint": "Track Your Complaint",
+          "helpCenter": "Help Center"
+        }
+      },
+      "legal": {
+        "title": "Legal Information",
+        "links": {
+          "legalNotice": "Legal Notice",
+          "privacyPolicy": "Privacy Policy",
+          "termsOfUse": "Terms of Use"
+        }
+      },
+      "contact": {
+        "title": "Get in Touch",
+        "phone": "(+213) 712131415",
+        "email": "clinical_trials@gmail.com",
+        "address": "123, Liberty Street, <br /> Algiers, Algeria"
+      }
+    }
+  },
+  "SearchPage": {
+    "filtersSideBar": {
+      "title": "Filters",
+      "condition": {
+        "label": "Condition/disease",
+        "placeholder": "Type of pathology (e.g. cancer)"
+      },
+      "location": {
+        "label": "Location",
+        "placeholder": "Select a country...",
+        "cityPlaceholder": "Select a city..."
+      },
+      "studyStatus": {
+        "label": "Study status",
+        "lookingForParticipants": "Looking for participants",
+        "noLongerLookingForParticipants": "No longer looking for participants",
+        "other": "Other",
+        "options": {
+          "notYetRecruiting": "Not yet recruiting",
+          "recruiting": "Recruiting",
+          "activeNotRecruiting": "Active, not recruiting",
+          "completed": "Completed",
+          "terminated": "Terminated",
+          "enrollingByInvitation": "Enrolling by invitation",
+          "suspended": "Suspended",
+          "withdrawn": "Withdrawn",
+          "unknown": "Unknown"
+        }
+      },
+      "gender": {
+        "label": "Gender",
+        "options": {
+          "all": "All",
+          "male": "Male",
+          "female": "Female"
+        }
+      },
+      "studyType": {
+        "label": "Study type",
+        "options": {
+          "interventional": "Interventional",
+          "observational": "Observational",
+          "expandedAccess": "Expanded access"
+        }
+      },
+      "studyPhase": {
+        "label": "Study phase",
+        "options": {
+          "na": "NA",
+          "earlyPhase1": "Early Phase 1",
+          "phase1": "Phase 1",
+          "phase2": "Phase 2",
+          "phase3": "Phase 3",
+          "phase4": "Phase 4"
+        }
+      },
+      "dateRange": {
+        "label": "Date range",
+        "studyStartDate": "Study start date",
+        "primaryCompletionDate": "Primary completion date",
+        "placeholder": "Pick a date"
+      },
+      "applyFilters": "Apply Filters",
+      "clearFilters": "Clear Filters"
+    }
+  },
+  "ClinicalTrialCard": {
+    "conditions": "Conditions",
+    "manyCountries": "Many countries",
+    "details": "Details",
+    "between": "Between",
+    "and": "and",
+    "years": "years",
+    "over": "Over",
+    "under": "Under",
+    "startingOn": "Starting on",
+    "endingOn": "Ending on",
+    "unknownGender": "Unknown gender",
+    "unknownAge": "Unknown age",
+    "unknownDates": "Unknown dates"
+  },
+  "ClinicalTrialDetails": {
+    "sourceName": "Source name",
+    "sourceType": "Source type",
+    "originalId": "Original ID",
+    "studyUrl": "Study URL",
+    "studyStart": "Study start",
+    "studyCompletion": "Study completion",
+    "lastUpdated": "Last updated",
+    "enrollment": "Enrollment (Actual)",
+    "studyType": "Study type",
+    "studyPhase": "Study phase",
+    "unknownDate": "Unknown date",
+    "unknownEnrollment": "Unknown enrollment",
+    "unknownType": "Unknown type",
+    "unknownPhase": "Unknown phase",
+    "unknownSource": "Unknown source",
+    "unknownId": "Unknown ID",
+    "unknownUrl": "Unknown URL",
+    "studySummary": "Study summary",
+    "conditions": "Conditions",
+    "interventions": "Interventions",
+    "interventionsUsage": "Intervention usage",
+    "participationCriteria": "Participation criteria",
+    "collaboratorsAndInvestigators": "Collaborators and investigators",
+    "sponsor": "Sponsor",
+    "collaborators": "Collaborators",
+    "contactsAndLocations": "Contacts and locations",
+    "noContacts": "No contacts provided",
+    "noCollaborators": "No collaborators provided",
+    "noSponsor": "No sponsor provided",
+    "noEligibilityCriteria": "No eligibility criteria provided",
+    "noConditions": "No conditions provided",
+    "noSummary": "No summary provided",
+    "gender": "Gender",
+    "minAge": "Minimum age",
+    "maxAge": "Maximum age",
+    "years": "years"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, fr {FR} en {EN} other {Unknown}}"
+  },
+  "LocaleLayout": {
+    "title": "Essais cliniques",
+    "description": "Explorez et gérez les données d'essais cliniques de manière transparente avec une interface conviviale, fournissant des recommandations personnalisées pour les médecins et les patients."
+  },
+  "Header": {
+    "home": "Accueil",
+    "search": "Rechercher",
+    "patients": "Patients",
+    "myTrials": "Mes essais",
+    "about": "À propos",
+    "faq": "FAQ",
+    "login": "Se connecter",
+    "register": "S'inscrire",
+    "logout": "Se déconnecter"
+  },
+  "LoginPage": {
+    "title": "Bienvenue",
+    "subtitle": "Veuillez vous connecter ici.",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "continueWith": "Ou continuer avec",
+    "account": "Vous n’avez pas de compte ?",
+    "toast": {
+      "title": "Connexion réussie",
+      "description": "Vous êtes maintenant connecté à votre compte"
+    }
+  },
+  "RegisterPage": {
+    "title": "Créer un nouveau compte",
+    "subtitle": "Veuillez entrer les détails.",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "hospital": "Hôpital",
+    "speciality": "Spécialité",
+    "medicalLicenseNumber": "Numéro de licence médicale",
+    "phoneNumber": "Numéro de téléphone",
+    "address": "Adresse",
+    "institution": "Institution",
+    "institutionAddress": "Adresse de l'institution",
+    "institutionContactNumber": "Numéro de contact de l'institution",
+    "investigatorRole": "Investigator role",
+    "hospitalPlaceHolder": "Nom de l'hôpital",
+    "gender": "Sex",
+    "male": "Homme",
+    "female": "Femme",
+    "submit": "S'inscrire",
+    "next": "Suivant",
+    "back": "Retour",
+    "continueWith": "Ou continuer avec",
+    "account": "Vous avez déjà un compte ?",
+    "toast": {
+      "title": "Compte créé",
+      "description": "Vous pouvez maintenant vous connecter à votre compte"
+    }
+  },
+  "HomePage": {
+    "SearchSection": {
+      "title": {
+        "first": "Découvrez et connectez",
+        "second": "les patients",
+        "third": "aux essais innovants en",
+        "fourth": "oncologie digestive"
+      },
+      "subTitle": "Donnez à vos patients l'accès à des essais cliniques de pointe",
+      "startSearching": "Commencer la recherche",
+      "form": {
+        "formHeader": "Je recherche un essai clinique.",
+        "condition": "Condition/maladie",
+        "conditionPlaceHolder": "Type de pathologie (ex : cancer)",
+        "location": "Localisation",
+        "locationPlaceHolder": "Sélectionner un pays",
+        "search": "Rechercher"
+      }
+    },
+    "KeyFeaturesSection": {
+      "title": "Fonctionnalités clés",
+      "first": "Intégration de données en temps réel",
+      "second": "Géolocalisation des sites d'essais",
+      "third": "Recommandations basées sur le profil",
+      "fourth": "Options de recherche et de filtrage faciles",
+      "fifth": "Gestion sécurisée des données des patients",
+      "sixth": "Communication patient-médecin"
+    },
+    "HowItWorksSection": {
+      "title": "Comment ça marche",
+      "first": {
+        "title": "Créer un profil de patient",
+        "description": "Saisissez les détails du patient pour des recommandations personnalisées."
+      },
+      "second": {
+        "title": "Rechercher et filtrer les essais",
+        "description": "Trouvez des essais pertinents à l'aide de nos outils de recherche avancés."
+      },
+      "third": {
+        "title": "Contactez le coordonnateur du procès",
+        "description": "Entrez en contact avec l'équipe d'essai en toute transparence."
+      }
+    },
+    "FaqSection": {
+      "title": "Questions fréquemment posées",
+      "questions": {
+        "first": {
+          "question": "Qu’est-ce qu’un essai clinique?",
+          "answer": "La recherche clinique (au sens de la loi Jardé qui l'encadre en France) correspond aux études scientifiques réalisées sur la personne humaine, en vue du développement des connaissances biologiques ou médicales. Il s’agit de recherches prospectives, impliquant le suivi de patients ou de volontaires sains. Quand on parle de recherche clinique, on pense souvent en premier lieu aux essais cliniques visant à l'évaluation d'un nouveau médicament, d'un dispositif médical ou d'une biothérapie. Mais ce domaine de la recherche en santé est bien plus vaste. La recherche clinique permet aussi : l'identification de mécanismes moléculaires ou cellulaires impliqués dans des maladies (qui peut elle-même conduire à celle de nouvelles cibles thérapeutiques) ; l'identification de facteurs de risques génétiques ou environnementaux (qui peut permettre la mise en place de stratégie de prévention) ; la comparaison de plusieurs approches diagnostiques ou thérapeutiques disponibles (qui peut servir à la formulation de recommandations sur la prise en charge des patients)… L’objectif d’un essai clinique portant sur un produit de santé (médicament, dispositif ou thérapie cellulaire et génique) est d’évaluer la sécurité et l’efficacité de ce dernier chez des volontaires sains ou malades. Le médicament pourra obtenir une autorisation de mise sur le marché (AMM) délivrée par l’Agence Nationale de Sécurité du Médicament et des produits de santé (ANSM) si son efficacité est prouvée, et s’il est sans danger pour le patient et peut être utilisé en toute sécurité."
+        },
+        "second": {
+          "question": "Quelles sont les différentes catégories d’essais cliniques?",
+          "answer": "Les textes législatifs encadrant les recherches impliquant la personne humaine (RIPH) distinguent trois catégories. Ces catégories se différencient principalement par la nature de l'intervention prévue par le protocole de recherche, modifiant ou non la prise en charge habituelle des participants et par le niveau de risque et de contraintes pour les personnes qui acceptent d’y participer. Recherches interventionnelles : impliquent une intervention non dénuée de risque pour les personnes qui y participent, et non justifiée par leur prise en charge habituelle. Il s’agit principalement des recherches sur les médicaments, mais aussi sur d’autres types d’interventions comme des actes chirurgicaux, des dispositifs médicaux, ou encore des thérapies cellulaires ou géniques. Recherches interventionnelles à risques et contraintes minimes : peuvent comporter des interventions ou des actes peu invasifs, dont la liste est fixée par un arrêté (prise de sang dans certaines limites de volume, questionnaire dont les résultats peuvent conduire à la modification de la prise en charge, examen radiologique sans injection de produit de contraste…). Des produits de santé ou des médicaments peuvent être utilisés dans leurs conditions habituelles d’utilisation, s’ils ne font pas spécifiquement l’objet de la recherche. Recherches non interventionnelles : comportent des actes ou des procédures définis par un arrêté. Dénuées de risques, elles ne modifient pas la prise en charge des participants, et tous les actes pratiqués et produits utilisés le sont de manière habituelle. Elles comprennent les recherches observationnelles : études portant sur l’observance des traitements, la tolérance à un médicament après sa mise sur le marché, les pratiques d’un centre de soins comparées à celles d’un autre, …"
+        },
+        "third": {
+          "question": "Qui peut participer à un essai clinique et comment?",
+          "answer": "Malade ou en bonne santé, toute personne peut être sollicitée pour participer à une recherche en santé. Cette proposition peut intervenir lors d'une consultation chez le médecin, mais également par voie d'affichage ou par annonce médiatique. Il est également possible de se porter volontaire de façon indépendante, en prenant contact avec des structures dédiées à la recherche clinique et en santé, telles que les centres d’investigation clinique (CIC) de l'Inserm. Être volontaire ne signifie pas qu’on sera automatiquement intégré dans un essai. Chaque étude possède des critères d’inclusion, fondés sur l’âge, le sexe, le type et le stade de la maladie, les antécédents médicaux, les maladies associées. Ces critères garantissent l’homogénéité des groupes, et donc l’obtention de résultats fiables, pertinents et robustes."
+        },
+        "fourth": {
+          "question": "Comment s’impliquer en toute confiance dans un essai clinique?",
+          "answer": "Participer à un essai clinique demande une implication forte et il est essentiel d'en connaitre les enjeux et les règles pour s'engager en toute confiance. Le site internet d’information Notre recherche clinique est une initiative du ministère des Solidarités et de la Santé, et de partenaires comme France Assos santé, pour permettre de prendre connaissance de tous les aspects en lien avec ce sujet. Les questions de l'éthique, de la confidentialité, de la protection des données, du contrôle y sont ainsi abordées. La protection des personnes qui participent à une recherche est encadrée par une règlementation : le texte fondateur est le code de Nuremberg de 1947, en France la loi Huriet-Sérusclat a été promue en 1988. Avant de débuter un essai clinique, le promoteur (qui est à l'initiative de l'essai) est tenu de rassembler et d'étudier tout ce qui est connu sur la pathologie et sur les traitements existants ainsi que toutes les informations scientifiques disponibles sur le produit à évaluer (médicament ou dispositif médical). Un comité de protection des personnes (CPP) indépendant est réuni pour suivre et évaluer chaque essai en cours. D'autres modalités de contrôles sont également effectuées régulièrement pendant le déroulement de l’essai : des contrôles « qualité », des contrôles spécifiques en cas d’effets indésirables et un suivi par un comité d'experts indépendant. Les règles du secret médical et du secret professionnel s’appliquent aux essais cliniques. Les échantillons biologiques effectués peuvent être conservés après avoir été rendus anonymes. Chaque participant à un essai peut en connaître les résultats globaux, ceux-ci sont publiés en général 1 an après la fin de l'essai. Il est possible de quitter un essai à tout moment, sans justification et sans risque pour la prise en charge médicale, car la participation est libre et volontaire. Un document d’information est remis, comportant les différents contacts possibles (investigateur et son équipe) en cas de survenue d’un problème."
+        }
+      }
+    },
+    "Footer": {
+      "about": {
+        "title": "A propos",
+        "links": {
+          "aboutUs": "A propos de nous",
+          "howItWorks": "Comment ça marche",
+          "faq": "FAQ"
+        }
+      },
+      "support": {
+        "title": "Support",
+        "links": {
+          "contactUs": "Contactez nous",
+          "trackComplaint": "Suivi de votre réclamation",
+          "helpCenter": "Centre d'aide"
+        }
+      },
+      "legal": {
+        "title": "Informations légales",
+        "links": {
+          "legalNotice": "Mentions légales",
+          "privacyPolicy": "Politique de confidentialité",
+          "termsOfUse": "Conditions d'utilisation"
+        }
+      },
+      "contact": {
+        "title": "Get in Touch",
+        "phone": "(+213) 712131415",
+        "email": "clinical_trials@gmail.com",
+        "address": "123, Rue de la liberté, <br /> Alger, Algérie"
+      }
+    }
+  },
+  "SearchPage": {
+    "filtersSideBar": {
+      "title": "Filtres",
+      "condition": {
+        "label": "Condition/maladie",
+        "placeholder": "Type de pathologie (ex. cancer)"
+      },
+      "location": {
+        "label": "Localisation",
+        "placeholder": "Sélectionner un pays",
+        "cityPlaceholder": "Sélectionner une ville"
+      },
+      "studyStatus": {
+        "label": "Statut de l'étude",
+        "lookingForParticipants": "Recherche de participants",
+        "noLongerLookingForParticipants": "Ne recherche plus de participants",
+        "other": "Autre",
+        "options": {
+          "notYetRecruiting": "Pas encore en recrutement",
+          "recruiting": "En recrutement",
+          "activeNotRecruiting": "Actif, pas en recrutement",
+          "completed": "Terminé",
+          "terminated": "Arrêté",
+          "enrollingByInvitation": "Inscription sur invitation",
+          "suspended": "Suspendu",
+          "withdrawn": "Retiré",
+          "unknown": "Inconnu"
+        }
+      },
+      "gender": {
+        "label": "Genre",
+        "options": {
+          "all": "Tous",
+          "male": "Homme",
+          "female": "Femme"
+        }
+      },
+      "studyType": {
+        "label": "Type d'étude",
+        "options": {
+          "interventional": "Interventionnelle",
+          "observational": "Observationnelle",
+          "expandedAccess": "Accès élargi"
+        }
+      },
+      "studyPhase": {
+        "label": "Phase de l'étude",
+        "options": {
+          "na": "NA",
+          "earlyPhase1": "Phase précoce 1",
+          "phase1": "Phase 1",
+          "phase2": "Phase 2",
+          "phase3": "Phase 3",
+          "phase4": "Phase 4"
+        }
+      },
+      "dateRange": {
+        "label": "Plage de dates",
+        "studyStartDate": "Date de début de l'étude",
+        "primaryCompletionDate": "Date d'achèvement principal",
+        "placeholder": "Choisir une date"
+      },
+      "applyFilters": "Appliquer les filtres",
+      "clearFilters": "Réinitialiser"
+    }
+  },
+  "ClinicalTrialCard": {
+    "conditions": "Conditions",
+    "manyCountries": "Plusieurs pays",
+    "details": "Détails",
+    "between": "Entre",
+    "and": "et",
+    "years": "ans",
+    "over": "Plus de",
+    "under": "Moins de",
+    "startingOn": "Commence le",
+    "endingOn": "Se termine le",
+    "unknownGender": "Genre inconnu",
+    "unknownAge": "Âge inconnu",
+    "unknownDates": "Dates inconnues"
+  },
+  "ClinicalTrialDetails": {
+    "sourceName": "Nom de la source",
+    "sourceType": "Type de source",
+    "originalId": "ID original",
+    "studyUrl": "URL de l'étude",
+    "studyStart": "Début de l'étude",
+    "studyCompletion": "Fin de l'étude",
+    "lastUpdated": "Dernière mise à jour",
+    "enrollment": "Inscription (réelle)",
+    "studyType": "Type d'étude",
+    "studyPhase": "Phase de l'étude",
+    "unknownDate": "Date inconnue",
+    "unknownEnrollment": "Inscription inconnue",
+    "unknownType": "Type inconnu",
+    "unknownPhase": "Phase inconnue",
+    "unknownSource": "Source inconnue",
+    "unknownId": "ID inconnu",
+    "unknownUrl": "URL inconnue",
+    "studySummary": "Résumé de l'étude",
+    "conditions": "Conditions",
+    "interventions": "Interventions",
+    "interventionsUsage": "Utilisation des interventions",
+    "participationCriteria": "Critères de participation",
+    "collaboratorsAndInvestigators": "Collaborateurs et investigateurs",
+    "sponsor": "Sponsor",
+    "collaborators": "Collaborateurs",
+    "contactsAndLocations": "Contacts et lieux",
+    "noContacts": "Aucun contact fourni",
+    "noCollaborators": "Aucun collaborateur fourni",
+    "noSponsor": "Aucun sponsor fourni",
+    "noEligibilityCriteria": "Aucun critère d'éligibilité fourni",
+    "noConditions": "Aucune condition fournie",
+    "noSummary": "Aucun résumé fourni",
+    "gender": "Genre",
+    "minAge": "Âge minimum",
+    "maxAge": "Âge maximum",
+    "years": "ans"
+  }
+}

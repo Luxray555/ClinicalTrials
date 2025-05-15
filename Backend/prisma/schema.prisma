@@ -1,0 +1,120 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("POSTGRES_DATABASE_URL")
+}
+
+enum Gender {
+  MALE
+  FEMALE
+}
+
+enum LogEventType {
+  DATA_LOADING
+  DATA_REFRESHING
+  DATA_SCAN
+  NO_MORE_DATA_TO_LOAD
+  DONE
+  // DONE_LOADING_DATA
+  // DONE_REFRESHING_DATA
+  NO_MORE_DATA_TO_REFRESH
+}
+
+enum Role {
+  ADMIN
+  DOCTOR
+  PATIENT
+}
+
+model Account {
+  id           Int      @id @default(autoincrement())
+  email        String   @unique @db.VarChar(255)
+  password     String
+  refreshToken String?  @map("refresh_token")
+  role         Role     @default(DOCTOR)
+  isBlocked    Boolean  @default(false) @map("is_blocked")
+  admin        Admin?
+  doctor       Doctor?
+  patient      Patient?
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt() @map("updated_at")
+
+  @@map("account")
+}
+
+model Admin {
+  id        Int      @id @default(autoincrement())
+  firstName String   @map("first_name") @db.VarChar(255)
+  lastName  String   @map("last_name") @db.VarChar(255)
+  image     String?
+  Account   Account  @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  accountId Int      @unique
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt() @map("updated_at")
+
+  @@map("admin")
+}
+
+model Doctor {
+  id         Int       @id @default(autoincrement())
+  firstName  String    @map("first_name") @db.VarChar(255)
+  lastName   String    @map("last_name") @db.VarChar(255)
+  speciality String?   @db.VarChar(255)
+  hospital   String?   @db.VarChar(255)
+  gender     Gender
+  image      String?
+  patients   Patient[]
+  Account    Account   @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  accountId  Int       @unique
+  createdAt  DateTime  @default(now()) @map("created_at")
+  updatedAt  DateTime  @updatedAt() @map("updated_at")
+
+  @@map("doctor")
+}
+
+model Patient {
+  id        Int      @id @default(autoincrement())
+  doctorId  Int?
+  Doctor    Doctor?  @relation(fields: [doctorId], references: [id], onDelete: Cascade)
+  Account   Account  @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  accountId Int      @unique
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt() @map("updated_at")
+
+  @@map("patient")
+}
+
+model Log {
+  id             Int          @id @default(autoincrement())
+  logInformation String       @db.VarChar(255)
+  logEventType   LogEventType @map("context_type")
+  createdAt      DateTime     @default(now()) @map("created_at")
+  updatedAt      DateTime     @updatedAt() @map("updated_at")
+  LogContext     LogContext?  @relation(fields: [logContextId], references: [id])
+  logContextId   Int?
+
+  @@map("log")
+}
+
+model LogContext {
+  sourceName     String       @map("source_name")
+  id             Int          @id @default(autoincrement())
+  numberOfTrials Int?         @map("number_of_trials")
+  startingFrom   Int?         @map("starting_from")
+  startYear      Int?         @map("start_year")
+  endYear        Int?         @map("end_year")
+  status         String[]     @map("status")
+  logEventType   LogEventType @map("log_event_type")
+  isDeleted      Boolean      @default(false) @map("is_deleted")
+
+  country    String?  @map("country")
+  conditions String[] @default([]) @map("conditions")
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+  Log        Log[]
+
+  @@map("log_context")
+}

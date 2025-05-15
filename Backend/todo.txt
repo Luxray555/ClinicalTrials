@@ -1,0 +1,14 @@
+    todo : add in the scheudler the garbage collector, to remove the nodes that has not relationships toward them
+  
+    --------------------------------------- todo list 1st March 2025 ---------------------------------------
+    * Learn pupeteer :done
+    * integrate Unicancer :done
+    * Finish the autoMapper ( make it read the content of the field also so he can know where to put the data .)
+    * Build statistics for the Website
+
+
+    * Addresses Missing: In the participating centers section, the address fields are empty, even though other center details are captured. This might be worth investigating.
+    * Empty Inclusion Criteria: All examples have empty inclusion criteria arrays while having exclusion criteria. This suggests there might be an issue with the selector for inclusion criteria.
+    * Evaluation Criteria: The evaluation criteria field is empty in all examples, which is consistent but might indicate this field isn't being properly extracted.
+    * Objects in JSON Output: In some coordinates fields, there's [Object] instead of the actual values (this might just be a console.log limitation rather than an issue with your code).
+

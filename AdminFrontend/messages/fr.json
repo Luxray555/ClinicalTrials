@@ -1,0 +1,727 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, fr {FR} en {EN} other {Unknown}}"
+  },
+  "LocaleLayout": {
+    "title": "Panneau d'administration",
+    "description": "Bienvenue sur le panneau d'administration. Vous pouvez maintenant vous connecter pour gérer et explorer les données des essais cliniques via une interface intuitive, offrant des recommandations personnalisées pour les médecins et les patients."
+  },
+  "Header": {
+    "home": "Accueil",
+    "pricing": "Tarification",
+    "about": "À propos",
+    "faq": "FAQ",
+    "login": "Se connecter",
+    "register": "S'inscrire",
+    "logout": "Se déconnecter",
+    "signedInAs": "Connecté en tant que",
+    "settings": "Paramètres",
+    "dashboard": "Tableau de bord"
+  },
+  "LoginPage": {
+    "title": "Bienvenue",
+    "subtitle": "Veuillez vous connecter ici.",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "continue with": "Ou continuer avec",
+    "account": "Vous n’avez pas de compte ?",
+    "toast": {
+      "title": "Connexion réussie",
+      "description": "Vous êtes maintenant connecté à votre compte"
+    }
+  },
+  "RegisterPage": {
+    "title": "Créer un nouveau compte",
+    "subtitle": "Veuillez entrer les détails.",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "userName": "Nom d'utilisateur",
+    "lastName": "Nom de famille",
+    "hospital": "Hôpital",
+    "hospitalPlaceHolder": "Nom de l'hôpital",
+    "gender": "Sex",
+    "male": "Homme",
+    "female": "Femme",
+    "submit": "S'inscrire",
+    "continueWith": "Ou continuer avec",
+    "account": "Vous avez déjà un compte ?",
+    "toast": {
+      "title": "Compte créé",
+      "description": "Vous pouvez maintenant vous connecter à votre compte"
+    }
+  },
+  "HomePage": {
+    "headline1": "Gérez",
+    "headline2": "votre plateforme",
+    "headline3": "à travers un",
+    "headline4": "panneau d'administration intuitif",
+    "subheadline": "Accédez à toutes les données et fonctionnalités via une interface claire et sécurisée.",
+    "cta": "Se connecter",
+    "imageAlt": "Interface du panneau d'administration affichant des données"
+  },
+  "SideBar": {
+    "Dashboard": "Tableau de bord",
+    "DataSources": "Sources de données",
+    "Users": "Utilisateurs",
+    "ClinicalTrials": "Essais cliniques",
+    "Settings": "Paramètres",
+    "AdminPanel": "Panneau d'administration",
+    "dataCollection": " Collecte de données & Actualisation",
+    "PendingClinicalTrials": "Essais cliniques en attente"
+  },
+  "UsersSection": {
+    "title": "Statistiques des Utilisateurs",
+    "total": {
+      "title": "Total d'Utilisateurs",
+      "footerTitle": "Croissance globale de la plateforme",
+      "footerDesc": "Base d'utilisateurs combinée tous rôles confondus"
+    },
+    "doctors": {
+      "title": "Médecins",
+      "footerTitle": "Croissance du personnel médical",
+      "footerDesc": "Professionnels de la santé actifs"
+    },
+    "patients": {
+      "title": "Patients",
+      "footerTitle": "Taux d'inscription des patients",
+      "footerDesc": "Total des patients inscrits"
+    },
+    "investigators": {
+      "title": "Investigateurs",
+      "footerTitle": "Statut de l'équipe de recherche",
+      "footerDesc": "Personnel de recherche actif"
+    },
+    "admins": {
+      "title": "Administrateurs",
+      "footerTitle": "Personnel de gestion",
+      "footerDesc": "Administrateurs système"
+    },
+    "chart": {
+      "title": "Répartition des Utilisateurs",
+      "subtitle": "Répartition actuelle des utilisateurs par rôle",
+      "centerLabel": "Utilisateurs",
+      "count": "Nombre",
+      "trendingUp": "En hausse de ",
+      "trendingDown": "En baisse de ",
+      "period": "cette période",
+      "description": "Affichage de la répartition relative de tous les rôles d'utilisateur"
+    }
+  },
+  "DataSourcesSection": {
+    "title": "Sources de Données",
+    "api": {
+      "title": "Sources API",
+      "footerDesc": "Données structurées provenant d'API externes"
+    },
+    "webScraper": {
+      "title": "Collecteurs Web",
+      "footerDesc": "Données extraites de sites web"
+    },
+    "investigators": {
+      "title": "Investigateurs",
+      "footerDesc": "Données collectées par les équipes de recherche"
+    },
+    "chart": {
+      "title": "Essais Cliniques par Source",
+      "subtitle": "Nombre d'essais collectés par source",
+      "trials": "Essais Cliniques"
+    }
+  },
+  "ClinicalTrialsSection": {
+    "title": "Essais Cliniques",
+    "count": "Nombre d'Essais",
+    "total": {
+      "title": "Total des Essais Cliniques",
+      "growth": "En croissance de {value}% ce mois-ci"
+    },
+    "status": {
+      "completed": "Terminé",
+      "notYetRecruiting": "Pas encore en recrutement",
+      "recruiting": "En cours de recrutement",
+      "unknown": "Inconnu",
+      "withdrawn": "Retiré",
+      "terminated": "Arrêté",
+      "suspended": "Suspendu"
+    },
+    "chart": {
+      "title": "Essais par Statut",
+      "subtitle": "Répartition des essais cliniques par statut actuel",
+      "trendingUp": "En croissance de",
+      "period": "ce mois-ci",
+      "description": "Basé sur tous les essais cliniques suivis dans le système"
+    }
+  },
+  "SearchPage": {
+    "filtersSideBar": {
+      "title": "Filtres",
+      "condition": {
+        "label": "Condition/maladie",
+        "placeholder": "Type de pathologie (ex. cancer)"
+      },
+      "location": {
+        "label": "Localisation",
+        "placeholder": "Sélectionner un pays",
+        "cityPlaceholder": "Sélectionner une ville"
+      },
+      "studyStatus": {
+        "label": "Statut de l'étude",
+        "lookingForParticipants": "Recherche de participants",
+        "noLongerLookingForParticipants": "Ne recherche plus de participants",
+        "other": "Autre",
+        "options": {
+          "notYetRecruiting": "Pas encore en recrutement",
+          "recruiting": "En recrutement",
+          "activeNotRecruiting": "Actif, pas en recrutement",
+          "completed": "Terminé",
+          "terminated": "Arrêté",
+          "enrollingByInvitation": "Inscription sur invitation",
+          "suspended": "Suspendu",
+          "withdrawn": "Retiré",
+          "unknown": "Inconnu"
+        }
+      },
+      "gender": {
+        "label": "Genre",
+        "options": {
+          "all": "Tous",
+          "male": "Homme",
+          "female": "Femme"
+        }
+      },
+      "studyType": {
+        "label": "Type d'étude",
+        "options": {
+          "interventional": "Interventionnelle",
+          "observational": "Observationnelle",
+          "expandedAccess": "Accès élargi"
+        }
+      },
+      "studyPhase": {
+        "label": "Phase de l'étude",
+        "options": {
+          "na": "NA",
+          "earlyPhase1": "Phase précoce 1",
+          "phase1": "Phase 1",
+          "phase2": "Phase 2",
+          "phase3": "Phase 3",
+          "phase4": "Phase 4"
+        }
+      },
+      "dateRange": {
+        "label": "Plage de dates",
+        "studyStartDate": "Date de début de l'étude",
+        "primaryCompletionDate": "Date d'achèvement principal",
+        "placeholder": "Choisir une date"
+      },
+      "applyFilters": "Appliquer les filtres",
+      "clearFilters": "Réinitialiser"
+    }
+  },
+  "ClinicalTrialCard": {
+    "conditions": "Conditions",
+    "manyCountries": "Plusieurs pays",
+    "details": "Détails",
+    "between": "Entre",
+    "and": "et",
+    "years": "ans",
+    "over": "Plus de",
+    "under": "Moins de",
+    "startingOn": "Commence le",
+    "endingOn": "Se termine le",
+    "unknownGender": "Genre inconnu",
+    "unknownAge": "Âge inconnu",
+    "unknownDates": "Dates inconnues"
+  },
+  "ClinicalTrialDetails": {
+    "sourceName": "Nom de la source",
+    "sourceType": "Type de source",
+    "originalId": "ID original",
+    "studyUrl": "URL de l'étude",
+    "studyStart": "Début de l'étude",
+    "studyCompletion": "Fin de l'étude",
+    "lastUpdated": "Dernière mise à jour",
+    "enrollment": "Inscription (réelle)",
+    "studyType": "Type d'étude",
+    "studyPhase": "Phase de l'étude",
+    "unknownDate": "Date inconnue",
+    "unknownEnrollment": "Inscription inconnue",
+    "unknownType": "Type inconnu",
+    "unknownPhase": "Phase inconnue",
+    "unknownSource": "Source inconnue",
+    "unknownId": "ID inconnu",
+    "unknownUrl": "URL inconnue",
+    "studySummary": "Résumé de l'étude",
+    "studyTitle": "Titre de l'étude",
+    "conditions": "Conditions",
+    "interventions": "Interventions",
+    "interventionsUsage": "Utilisation des interventions",
+    "participationCriteria": "Critères de participation",
+    "collaboratorsAndInvestigators": "Collaborateurs et investigateurs",
+    "sponsor": "Sponsor",
+    "collaborators": "Collaborateurs",
+    "contactsAndLocations": "Contacts et lieux",
+    "noContacts": "Aucun contact fourni",
+    "noCollaborators": "Aucun collaborateur fourni",
+    "noSponsor": "Aucun sponsor fourni",
+    "noEligibilityCriteria": "Aucun critère d'éligibilité fourni",
+    "noConditions": "Aucune condition fournie",
+    "noSummary": "Aucun résumé fourni",
+    "gender": "Genre",
+    "minAge": "Âge minimum",
+    "maxAge": "Âge maximum",
+    "years": "ans"
+  },
+  "DataSourcesTable": {
+    "title": "Sources de Données",
+    "columns": {
+      "name": "Nom",
+      "type": "Type",
+      "nextSync": "Prochaine Synchronisation Planifiée",
+      "frequency": "Fréquence",
+      "status": "Statut",
+      "actions": "Actions",
+      "refreshStatus": "État de Rafraîchissement"
+    },
+    "type": {
+      "API": "API",
+      "Website Scraper": "Scraper de Site Web",
+      "INVESTIGATOR": "Investigateur"
+    },
+    "sync": {
+      "notScheduled": "Pas encore planifiée"
+    },
+    "frequency": {
+      "notConfigured": "Non configuré",
+      "values": {
+        "DAILY": "Quotidien",
+        "WEEKLY": "Hebdomadaire",
+        "MONTHLY": "Mensuel",
+        "MANUAL": "Manuel"
+      }
+    },
+    "status": {
+      "idle": "Inactif",
+      "running": "En cours",
+      "stopped": "Arrêté",
+      "failed": "Échoué",
+      "completed": "Terminé",
+      "refresh completed": "Rafraîchi avec succès",
+      "refreshing": "Rafraîchissement en cours",
+      "refresh failed": "Échec du rafraîchissement"
+    },
+    "actions": {
+      "configureSchedule": "Configurer la Planification",
+      "startPipeline": "Démarrer le Pipeline",
+      "stopPipeline": "Arrêter le Pipeline",
+      "viewDetails": "Voir les Détails",
+      "openMenu": "Ouvrir le menu"
+    },
+    "customizeColumns": {
+      "long": "Personnaliser les Colonnes",
+      "short": "Colonnes"
+    },
+    "filter": {
+      "placeholder": "Filtrer les sources de données...",
+      "typePlaceholder": "Filtrer par type",
+      "allTypes": "Tous les types"
+    },
+    "noData": "Aucune source de données trouvée.",
+    "pagination": {
+      "showing": "Affichage de {count} sur {total} sources de données",
+      "rowsPerPage": "Lignes par page",
+      "pageInfo": "Page {page} sur {totalPages}",
+      "firstPage": "Aller à la première page",
+      "previousPage": "Page précédente",
+      "nextPage": "Page suivante",
+      "lastPage": "Aller à la dernière page"
+    },
+    "confirmation": {
+      "stop": {
+        "title": "Arrêter le Pipeline",
+        "message": "Êtes-vous sûr de vouloir arrêter le pipeline pour {name} ?",
+        "confirm": "Arrêter"
+      }
+    }
+  },
+  "ScheduleModal": {
+    "title": "Configurer la Planification de Rafraîchissement",
+    "description": "Définissez la fréquence à laquelle vous souhaitez actualiser les données de {name}",
+    "successMessage": "Planification mise à jour pour {name}",
+    "frequency": {
+      "label": "Fréquence",
+      "placeholder": "Sélectionnez la fréquence",
+      "description": "À quelle fréquence rafraîchir les données",
+      "options": {
+        "daily": "Quotidien",
+        "weekly": "Hebdomadaire",
+        "monthly": "Mensuel",
+        "manual": "Manuel",
+        "notSet": "Non défini"
+      }
+    },
+    "dayOfWeek": {
+      "label": "Jour de la semaine",
+      "placeholder": "Sélectionnez un jour",
+      "options": {
+        "monday": "Lundi",
+        "tuesday": "Mardi",
+        "wednesday": "Mercredi",
+        "thursday": "Jeudi",
+        "friday": "Vendredi",
+        "saturday": "Samedi",
+        "sunday": "Dimanche",
+        "notSet": "Non défini"
+      }
+    },
+    "dayOfMonth": {
+      "label": "Jour du mois",
+      "placeholder": "Sélectionnez un jour",
+      "options": {
+        "notSet": "Non défini"
+      }
+    },
+    "timeOfDay": {
+      "label": "Heure",
+      "description": "Spécifiez l'heure du rafraîchissement (facultatif)"
+    },
+    "buttons": {
+      "cancel": "Annuler",
+      "save": "Sauvegarder la Planification"
+    }
+  },
+  "DataSourceDetails": {
+    "subtitle": "Détails de la source de données",
+    "buttons": {
+      "refreshNow": "Actualiser maintenant",
+      "runPipeline": "Exécuter le pipeline",
+      "configure": "Configurer",
+      "stopPipeline": "Arrêter"
+    },
+    "totalTrialsCard": {
+      "title": "Total des essais cliniques"
+    },
+    "scheduleCard": {
+      "title": "Calendrier actuel",
+      "frequencyLabel": "Fréquence",
+      "nextSyncLabel": "Prochaine synchronisation"
+    },
+    "schedule": {
+      "notScheduled": "Non programmé",
+      "atTime": "à",
+      "onDay": "le",
+      "onDayOfMonth": "le jour"
+    },
+    "refreshNow": {
+      "title": "Rafraîchir les données maintenant",
+      "description": "Êtes-vous sûr de vouloir rafraîchir les données pour cette source ?",
+      "confirmButtonText": "Rafraîchir maintenant",
+      "cancelButton": "Annuler",
+      "toastError": "Erreur lors du rafraîchissement des données",
+      "toastSuccess": "Rafraîchissement des données lancé avec succès"
+    },
+    "stopNow": {
+      "title": "Arrêter le pipeline",
+      "description": "Êtes-vous sûr de vouloir arrêter le pipeline pour cette source ?",
+      "confirmButtonText": "Arrêter maintenant",
+      "cancelButton": "Annuler",
+      "toastError": "Erreur lors de l'arrêt du pipeline",
+      "toastSuccess": "Pipeline arrêté avec succès"
+    },
+    "tabs": {
+      "details": "Détails",
+      "history": "Historique de collecte des données",
+      "settings": "Paramètres"
+    },
+    "detailsTab": {
+      "title": "Informations sur la source de données",
+      "idLabel": "ID :",
+      "nameLabel": "Nom :",
+      "typeLabel": "Type :"
+    },
+    "settingsTab": {
+      "comingSoon": "Des paramètres supplémentaires seront bientôt disponibles."
+    },
+    "refreshSuccess": "Actualisation des données initiée avec succès."
+  },
+  "RunPipelineModal": {
+    "title": "Exécuter le pipeline de données",
+    "description": "Configurer et démarrer le pipeline de données pour {name}",
+    "tabs": {
+      "basic": "Paramètres de base",
+      "filters": "Filtres"
+    },
+    "basicSettings": {
+      "numberOfTrials": {
+        "label": "Nombre d'essais",
+        "description": "Doit être un multiple de 100 (par exemple, 100, 200)"
+      },
+      "startingFrom": {
+        "label": "Commencer à partir de",
+        "description": "Décalage pour la pagination (multiple de 100)"
+      }
+    },
+    "filters": {
+      "numberOfTrials": {
+        "label": "Nombre d'essais",
+        "description": "Doit être un multiple de 100 (par exemple, 100, 200)"
+      },
+      "startingFrom": {
+        "label": "Commencer à partir de",
+        "description": "Décalage pour la pagination (multiple de 100)"
+      },
+      "startYear": {
+        "label": "Année de début"
+      },
+      "endYear": {
+        "label": "Année de fin"
+      },
+      "country": {
+        "label": "Pays",
+        "placeholder": "Sélectionner un pays",
+        "description": "Filtrer les essais par pays"
+      },
+      "status": {
+        "trigger": "Statut de l'essai",
+        "description": "Sélectionner les statuts des essais à inclure"
+      },
+      "conditions": {
+        "trigger": "Conditions",
+        "description": "Sélectionner les conditions pour filtrer les essais"
+      }
+    },
+    "statusOptions": {
+      "completed": "Terminé",
+      "recruiting": "Recrutement en cours",
+      "notYetRecruiting": "Pas encore en recrutement",
+      "activeNotRecruiting": "Actif, pas en recrutement",
+      "terminated": "Terminé",
+      "withdrawn": "Retiré",
+      "unknown": "Inconnu",
+      "suspended": "Suspendu",
+      "enrollingByInvitation": "Inscription sur invitation",
+      "approvedForMarketing": "Approuvé pour la commercialisation",
+      "noLongerAvailable": "N'est plus disponible",
+      "temporarilyNotAvailable": "Temporairement non disponible"
+    },
+    "conditionOptions": {
+      "cancer": "Cancer",
+      "diabetes": "Diabète",
+      "covid19": "COVID-19",
+      "alzheimers": "Maladie d'Alzheimer",
+      "heartDisease": "Maladies cardiaques"
+    },
+    "countryOptions": {
+      "us": "États-Unis",
+      "gb": "Royaume-Uni",
+      "ca": "Canada",
+      "au": "Australie",
+      "fr": "France",
+      "de": "Allemagne"
+    },
+    "validation": {
+      "numberOfTrialsMultiple": "Le nombre d'essais doit être au moins 100 et un multiple de 100",
+      "startingFromMultiple": "Le champ 'Commencer à partir de' doit être un multiple de 100"
+    },
+    "buttons": {
+      "cancel": "Annuler",
+      "start": "Démarrer le pipeline"
+    },
+    "successMessage": "Pipeline démarré pour {name}"
+  },
+  "LogContextsTable": {
+    "title": "Journaux du Pipeline",
+    "customizeColumns": {
+      "long": "Personnaliser les colonnes",
+      "short": "Colonnes"
+    },
+    "filter": {
+      "sourcePlaceholder": "Filtrer par nom de source...",
+      "typePlaceholder": "Filtrer par type d'événement",
+      "allTypes": "Tous les types"
+    },
+    "columns": {
+      "id": "ID",
+      "sourceName": "Source",
+      "logEventType": "Type d'événement",
+      "parameters": "Paramètres",
+      "createdAt": "Créé le"
+    },
+    "eventTypes": {
+      "DATA_LOADING": "Chargement des données",
+      "ERROR": "Erreur",
+      "INFO": "Info",
+      "DATA_REFRESHING": "Actualisation des données",
+      "PIPELINE_START": "Démarrage du pipeline",
+      "PIPELINE_END": "Fin du pipeline",
+      "PIPELINE_ERROR": "Erreur du pipeline"
+    },
+    "parameters": {
+      "trials": "Essais",
+      "from": "À partir de",
+      "years": "Années",
+      "country": "Pays",
+      "statuses": "Statuts",
+      "conditions": "Conditions",
+      "none": "Aucun paramètre"
+    },
+    "dateTimeFormat": "dd MMM yyyy HH:mm:ss",
+    "noData": "Aucun journal trouvé.",
+    "pagination": {
+      "showing": "Affichage de {count} sur {total} entrées de journal",
+      "rowsPerPage": "Lignes par page",
+      "pageInfo": "Page {page} sur {totalPages}",
+      "firstPage": "Aller à la première page",
+      "previousPage": "Page précédente",
+      "nextPage": "Page suivante",
+      "lastPage": "Aller à la dernière page"
+    }
+  },
+  "UsersDataTable": {
+    "headerTitle": "Utilisateurs",
+    "customizeColumns": {
+      "button": "Personnaliser les Colonnes",
+      "buttonShort": "Colonnes"
+    },
+    "filter": {
+      "emailPlaceholder": "Filtrer par email...",
+      "rolePlaceholder": "Filtrer par rôle...",
+      "roleAllOption": "Tous les rôles"
+    },
+    "table": {
+      "header": {
+        "select": "Sélectionner tout",
+        "email": "Email",
+        "firstName": "Prénom",
+        "lastName": "Nom de famille",
+        "role": "Rôle",
+        "status": "Statut"
+      },
+      "body": {
+        "noResults": "Aucun résultat.",
+        "status": {
+          "active": "Actif",
+          "blocked": "Bloqué"
+        },
+        "actions": {
+          "openMenu": "Ouvrir le menu",
+          "block": "Bloquer",
+          "unblock": "Débloquer",
+          "delete": "Supprimer"
+        },
+        "row": {
+          "select": "Sélectionner la ligne",
+          "dragHandle": "Glisser pour réorganiser"
+        }
+      }
+    },
+    "pagination": {
+      "totalRows": "{total} ligne(s) au total.",
+      "rowsPerPage": "Lignes par page",
+      "pageInfo": "Page {page} sur {totalPages}",
+      "showing": "Affichage de {count} sur {total} utilisateurs",
+      "firstPage": "Aller à la première page",
+      "previousPage": "Aller à la page précédente",
+      "nextPage": "Aller à la page suivante",
+      "lastPage": "Aller à la dernière page"
+    },
+    "actionsConfirmation": {
+      "block": {
+        "title": "Bloquer l'utilisateur",
+        "message": "Êtes-vous sûr de vouloir bloquer {email} ?",
+        "confirmButton": "Bloquer",
+        "success": "Utilisateur bloqué avec succès",
+        "error": "Erreur lors du blocage de l'utilisateur"
+      },
+      "delete": {
+        "title": "Supprimer l'utilisateur",
+        "message": "Êtes-vous sûr de vouloir supprimer {email} ?",
+        "confirmButton": "Supprimer",
+        "success": "Utilisateur supprimé avec succès",
+        "error": "Erreur lors de la suppression de l'utilisateur"
+      },
+      "unblockSuccess": "Utilisateur débloqué avec succès"
+    },
+    "roles": {
+      "patient": "Patient",
+      "doctor": "Médecin",
+      "admin": "Administrateur",
+      "investigator": "Investigateur"
+    }
+  },
+  "ClinicalTrialsTable": {
+    "headerTitle": "Essais Cliniques",
+    "customizeColumns": {
+      "button": "Personnaliser les Colonnes",
+      "buttonShort": "Colonnes"
+    },
+    "filters": {
+      "trialPlaceholder": "Filtrer les essais...",
+      "statusPlaceholder": "Filtrer par Statut",
+      "allStatusesOption": "Tous les Statuts"
+    },
+    "table": {
+      "header": {
+        "title": "Titre",
+        "phase": "Phase",
+        "conditions": "Conditions",
+        "enrollment": "Inscriptions",
+        "status": "Statut",
+        "nextFollowUp": "Prochain Suivi"
+      },
+      "body": {
+        "conditionsUnknown": "Inconnu",
+        "enrollmentInfinite": "∞",
+        "notScheduled": "Non programmé",
+        "noResults": "Aucun essai clinique trouvé.",
+        "actions": {
+          "openMenu": "Ouvrir le menu",
+          "viewDetails": "Voir les Détails",
+          "refuse": "Refuser",
+          "accept": "Accepter",
+          "delete": "Supprimer"
+        }
+      }
+    },
+    "pagination": {
+      "showing": "Affichage de {count} sur {total} essais cliniques",
+      "rowsPerPage": "Lignes par page",
+      "pageInfo": "Page {page} sur {totalPages}",
+      "firstPage": "Aller à la première page",
+      "previousPage": "Aller à la page précédente",
+      "nextPage": "Aller à la page suivante",
+      "lastPage": "Aller à la dernière page"
+    },
+    "actionsConfirmation": {
+      "delete": {
+        "title": "Supprimer l'Essai",
+        "message": "Êtes-vous sûr de vouloir supprimer cet essai ?",
+        "confirmButton": "Supprimer"
+      }
+    },
+    "toastMessages": {
+      "deleteSuccess": "Essai supprimé avec succès",
+      "deleteError": "Échec de la suppression de l'essai"
+    },
+    "statusEnum": {
+      "NOT_YET_RECRUITING": "Pas encore en recrutement",
+      "RECRUITING": "En recrutement",
+      "ENROLLING_BY_INVITATION": "Inscription sur invitation",
+      "ACTIVE_NOT_RECRUITING": "Actif, sans recrutement",
+      "SUSPENDED": "Suspendu",
+      "TERMINATED": "Terminé",
+      "COMPLETED": "Complété",
+      "WITHDRAWN": "Retiré",
+      "UNKNOWN": "Inconnu"
+    }
+  },
+  "Logout": {
+    "buttonText": "Déconnexion",
+    "ariaLabel": "Déconnexion",
+    "confirmTitle": "Déconnexion",
+    "confirmMessage": "Êtes-vous sûr de vouloir vous déconnecter ?",
+    "confirmButton": "Déconnexion",
+    "toastSuccess": "Déconnexion réussie"
+  }
+}
