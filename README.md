@@ -77,7 +77,7 @@ To set up Neo4j:
     OPTIONS { indexConfig: { `vector.dimensions`: 712, `vector.similarity_function`: 'cosine' }}
     ```
 
-  You can write those Cypher queries one by one after opening Neo4j Desktop.
+    You can write those Cypher queries one by one after opening Neo4j Desktop.
 
 ### 2.2 PostgreSQL Database
 -You need to install PostgreSQL.
