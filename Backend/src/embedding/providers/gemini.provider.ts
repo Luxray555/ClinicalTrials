@@ -23,7 +23,7 @@ export class GeminiEmbeddingProvider extends EmbeddingProvider {
                 text,
             ],
             config: {
-                outputDimensionality: 712,
+                outputDimensionality: 768,
             },
         });
 

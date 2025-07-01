@@ -1,5 +1,5 @@
 import {
-  BadRequestException,
+  BadRequestException, Body,
   Controller,
   Get,
   Param,
@@ -15,6 +15,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { Express } from 'express';
 import { CsvService } from '@/csv/csv.service';
 import { FieldMappingModelService } from '@/field-mapping-model/field-mapping-model.service';
+import { ClinicalTrial } from '@/lib/types/data-model';
 
 @Public()
 @Controller('clinical-trials')
@@ -69,6 +70,19 @@ export class ClinicalTrialsController {
       console.error('CSV Upload Error:', error);
       throw new BadRequestException(`CSV Processing failed: ${error.message}`);
     }
+  }
+
+  @Post('create-or-update')
+  createOrUpdate(@Body() clinicalTrial: ClinicalTrial) {
+    console.log('Received clinical trial data:', clinicalTrial);
+    const p: Promise<{ trial: ClinicalTrial }> = this.clinicalTrialsService.updateOrCreate(clinicalTrial);
+    return p.then(() => {
+      console.log('ClinicalTrial mis à jour ou créé avec succès');
+      return { message: 'Clinical Trial updated or created successfully' };
+    }).catch(() => {
+      console.log('ClinicalTrial non mis à jour ou créé');
+      return { message: 'Clinical Trial not updated or created' };
+    });
   }
 
 

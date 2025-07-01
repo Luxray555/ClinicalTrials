@@ -480,9 +480,9 @@ export class Neo4jLoader implements IClinicalTrialsLoader {
     const text = `
       ${study.title}
       ${study.summary}
-      ${study.conditions.map(condition => condition.name).join(', ')}
-      ${study.interventions.map(intervention => intervention.name).join(', ')}
-      ${study.eligibility.eligibilityCriteria}
+      ${(study.conditions || []).map(condition => condition.name).join(', ')}
+      ${(study.interventions || []).map(intervention => intervention.name).join(', ')}
+      ${(study.eligibility?.eligibilityCriteria || '')}
     `;
     return text;
   }
@@ -581,7 +581,7 @@ export class Neo4jLoader implements IClinicalTrialsLoader {
 
       return { ...createdNodes, ...resultData };
     } catch (error) {
-      // console.error(`Error inserting clinical trial ${study.id}:`);
+      console.error(error);
       throw error;
     }
   }
