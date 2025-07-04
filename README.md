@@ -74,7 +74,7 @@ To set up Neo4j:
     CREATE VECTOR INDEX clinicalTrialsVI IF NOT EXISTS
     FOR (m:ClinicalTrial)
     ON m.embedding
-    OPTIONS { indexConfig: { `vector.dimensions`: 712, `vector.similarity_function`: 'cosine' }}
+    OPTIONS { indexConfig: { `vector.dimensions`: 768, `vector.similarity_function`: 'cosine' }}
     ```
 
     You can write those Cypher queries one by one after opening Neo4j Desktop.
